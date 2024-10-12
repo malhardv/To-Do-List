@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: #e0e0e0;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333333;
+  box-shadow: 5px 5px 20px rgba(51, 51, 51, 0.8), -5px -5px 20px rgba(51, 51, 51, 0.8);
+  border-radius: 20px;
+}
+
+h2 {
+  color: rgb(255, 132, 0);
+  font-family: "Poppins";
+  font-size: 40px;
+} 
+
+input[type = "text"] {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  padding: 20px;
+  /* background-color: rgb(198, 198, 198); */
+}
+
+button {
+  margin: 12px;
+  border: none;
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: rgb(255, 132, 0);
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: rgb(194, 100, 0);
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease-in;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+li button {
+  margin-left: 15px;
+  background-color: rgb(255, 60, 26);
+  flex-shrink: 0;
+}
+
+.updateButton { 
+  background-color: rgb(0, 193, 0);
+}
